@@ -22,9 +22,14 @@ public class Tipos_Datos {
        float e = 4.1234567f;
        double f = 4.12345678910111213d;
        char g = 'a';
-       boolean h = true;
+       boolean h = true;   
+       String[] valor = new String[3]; //Arreglo de tipo cadena de caracteres de nombre Valor con tamaño de 3
+       String valor1[] = new String[3];//Arreglo de tipo cadena de caracteres de nombre valor1 con tamaño 3 (otra forma de declaracion)
+       int valor2[];
+       valor2 = new int[2];//Arreglo de tipo Entero de nombre valor2 con tamaño de 2 (Otra manera de declaracion de arreglos)
+               
        
-        System.err.println("byte: "+a+"\nShort: "+b+"\nint: "+c+"\nlong:"+d+"\nfloat: "+e+"\ndouble: "+f+"\nchar: "+g+"\nboolean: "+h);
+       System.out.println("byte: "+a+"\nShort: "+b+"\nint: "+c+"\nlong:"+d+"\nfloat: "+e+"\ndouble: "+f+"\nchar: "+g+"\nboolean: "+h);
        
            
     }
